@@ -26,7 +26,7 @@ const greeting = {
     "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1RCxChYceXbhrHGCSlx6U_3NchhLmU8e4/view?usp=sharing", // Set to empty to hide the button
+    "https://cdn.arunanthivi.com/arunan_thiviyanathan_swe.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,6 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/arunanthivi/",
   gmail: "mail@arunanthivi.com",
   instagram: "https://instagram.com/arunanthivi",
-  spotify: "https://open.spotify.com/user/arunankogulan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,7 +47,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "A Little Bit About Me",
   subTitle:
-    "A naurally curious student using computer science to materialize cool ideas ",
+    "I'm just a chill guy trying to make cool stuff",
   skills: [
     emoji(
       "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
@@ -57,7 +56,7 @@ const skillsSection = {
       "🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"
     ),
     emoji(
-      "🎥 To flex my creative side, I like to mess around with video and photo editing in Adobe Premiere and Photoshop"
+      "🪛 I always have at least one random gadget I'm tinkering on"
     )
   ],
 
@@ -66,28 +65,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-typescript"
+    },
+    {
+      skillName: "go",
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
       skillName: "React",
@@ -98,16 +89,29 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    
     {
       skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fab fa-kubernetes"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -122,7 +126,8 @@ const educationInfo = {
       schoolName: "University of California, San Diego",
       logo: require("./assets/images/ucsd.png"),
       subHeader: "Masters: Computer Science",
-      duration: "September 2024 - December 2025"
+      duration: "September 2024 - March 2026",
+      desc: "GPA: 3.710"
     },
     {
       schoolName: "University of California, Berkeley",
@@ -140,7 +145,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "node.JS", //Insert stack or technology you have experience in
+      Stack: "JavaScript/TypeScript", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
@@ -148,7 +153,7 @@ const techStack = {
       progressPercentage: "65%"
     },
     {
-      Stack: "Verilog/VLSI",
+      Stack: "C/C++",
       progressPercentage: "55%"
     }
   ],
@@ -161,15 +166,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Undergraduate Student Instructor",
+      role: "Graduate Student Researcher",
       company: "University of California",
       companylogo: require("./assets/images/ucsd.png"),
       date: "September 2024 - Present",
-      desc: "Helped teach UC San Diego's Systems Programming course (CSE 29)",
+      desc: "Contributor to the Junkyard Computing Project",
       descBullets: [
-        "Led Weekly small group discussion sections to teach concepts in UC Berkeley's Computer Architecture course",
-        "Managed Office Hours throughout the semester to provide personalized assistance to students",
-        "Coordinated with professors and staff heads to organize class logisitics for 1200 students"
+        "Architected a distributed autograder in Go deployed on a Kubernetes cluster of repurposed Pixel Fold smartphones",
+        "Integrated Gradescope and GitHub Classroom webhooks to trigger containerized grading jobs upon student submission",
+        "Instrumented mobile-node cluster with Prometheus and Grafana, achieving 9̃9.6% uptime over 3 months of active use"
       ]
     },
     {
@@ -196,18 +201,6 @@ const workExperiences = {
         "Worked cross functionally with Product Managers, quality engineers and UI designers to solidify product requirements"
       ]
     },
-
-    {
-      role: "Software Engineering Intern",
-      company: "G4TV",
-      companylogo: require("./assets/images/G4TV.jpg"),
-      date: "June 2021 - August 2021",
-      desc: "Worked with Analytics team to create a CV model to detect G4 cast members in weekly livestreams",
-      descBullets: [
-        "Optimized machine learning model for accuracy and precision of recognizing cast members",
-        "Generated demos weekly that would be shown to corporate management"
-      ]
-    }
   ]
 };
 
@@ -226,15 +219,24 @@ const bigProjects = {
   subtitle: "Some of my Favorite Projects",
   projects: [
     {
-      image: require("./assets/images/SpotifyLogo.png"),
-      projectName: "SwipeSearch",
+      image: require("./assets/images/uscd_mcbba.jpg"),
+      projectName: "Club Basketball",
       projectDesc:
-        "Efficently parse through a Spotify Playlist/Album and save your favorite songs (Optimized for Mobile)",
+        "Film, Box scores and interactive game charts for UCSD's Club Basketball team",
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://swipe.arunanthivi.com/"
+          url: "http://club.arunanthivi.com/"
+        },
+        {
+          name: "Frontend Code",
+          url: "https://github.com/ArunanThivi/club"
+        },
+        {
+          name: "Backend code",
+          url: "https://github.com/ArunanThivi/club-basketball-backend"
         }
+
         //  you can add extra buttons here.
       ]
     },
@@ -265,7 +267,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Best Design",
+      title: "Most Efficent Design (3rd)",
+      subtitle:
+        "Placed 3rd in global competition for designing the most efficent image classification accelerator using Catapult HLS. Competition was sponsored by Siemens Inc..",
+      image: require("./assets/images/siemenssoftware_logo.jpg"),
+      footerLink: [
+        {
+          name: "Project Specification",
+          url: "https://hls.academy/accelerating-inferencing-using-hls-hackathon/"
+        },
+      ]
+    },
+    {
+      title: "Best Design (3rd)",
       subtitle:
         "Placed 3rd out of 1200 students in designing the most efficent RISC-V CPU for UC Berkeley's Computer Architecture course. Competition was sponsored by Apple Inc.",
       image: require("./assets/images/Apple-Logo.png"),
@@ -318,23 +332,17 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "I've started writing about general musings",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://blog.arunanthivi.com/healthcare-is-a-scam",
+      title: "Healthcare is a scam",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Figuring out my insurance plan when I first started working sent me down a rabbit hole of the American health insurance industry. I documented my findings for the next poor soul."
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
