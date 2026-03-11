@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
   ),
-  resumeLink:
-    "https://cdn.arunanthivi.com/arunan_thiviyanathan_swe.pdf", // Set to empty to hide the button
+  resumeLink: "https://cdn.arunanthivi.com/arunan_thiviyanathan_swe.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,8 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "A Little Bit About Me",
-  subTitle:
-    "I'm just a chill guy trying to make cool stuff",
+  subTitle: "I'm just a chill guy trying to make cool stuff",
   skills: [
     emoji(
       "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
@@ -55,9 +53,7 @@ const skillsSection = {
     emoji(
       "🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"
     ),
-    emoji(
-      "🪛 I always have at least one random gadget I'm tinkering on"
-    )
+    emoji("🪛 I always have at least one random gadget I'm tinkering on")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -96,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     {
       skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
@@ -200,7 +196,7 @@ const workExperiences = {
         "Wrote technical design specification with considerations for scalability and usability",
         "Worked cross functionally with Product Managers, quality engineers and UI designers to solidify product requirements"
       ]
-    },
+    }
   ]
 };
 
@@ -275,7 +271,7 @@ const achievementSection = {
         {
           name: "Project Specification",
           url: "https://hls.academy/accelerating-inferencing-using-hls-hackathon/"
-        },
+        }
       ]
     },
     {
@@ -331,8 +327,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "I've started writing about general musings",
+  subtitle: "I've started writing about general musings",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -340,7 +335,7 @@ const blogSection = {
       title: "Healthcare is a scam",
       description:
         "Figuring out my insurance plan when I first started working sent me down a rabbit hole of the American health insurance industry. I documented my findings for the next poor soul."
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
