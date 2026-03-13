@@ -21,9 +21,10 @@ const illustration = {
 
 const greeting = {
   username: "Arunan T",
-  title: "Hi! I'm Arunan",
+  title: "Hey! I'm Arunan",
   subTitle: emoji(
-    "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
+    "I like imagining niche ideas and engineering them into reality"
+    // "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
   ),
   resumeLink: "https://cdn.arunanthivi.com/arunan_thiviyanathan_swe.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -141,16 +142,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "JavaScript/TypeScript", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Backend/APIs", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Python",
-      progressPercentage: "65%"
-    },
-    {
-      Stack: "C/C++",
+      Stack: "Frontend",
       progressPercentage: "55%"
+    },
+    {
+      Stack: "Systems/Infra",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
