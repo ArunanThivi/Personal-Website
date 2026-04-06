@@ -37,6 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/arunanthivi/",
   gmail: "mail@arunanthivi.com",
   instagram: "https://instagram.com/arunanthivi",
+  spotify: "https://listenbrainz.org/user/arunanthivi/stats",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -238,14 +239,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/SpotifyLogo.png"),
-      projectName: "FeatureSearch",
+      image: require("./assets/images/navidrome.png"),
+      projectName: "EarWorm",
       projectDesc:
-        "A Web App to analyze trends in a user's music tastes, based on the past 6 months of listening history through Spotify",
+        "An ESP-32 portable music player that auto syncs with my Navidrome server via the Subsonic API",
       footerLink: [
         {
-          name: "Check it out!",
-          url: "http://spotify.arunanthivi.com/"
+          name: "Code (Work in Progress!)",
+          url: "https://github.com/ArunanThivi/EarWorm/"
         }
         //  you can add extra buttons here.
       ]

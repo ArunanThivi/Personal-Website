@@ -99,7 +99,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-spotify"></i>
+          <i className="fas fa-headphones"></i>
           <span></span>
         </a>
       ) : null}
@@ -139,6 +139,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {/* 
+      {socialMediaLinks.music ? (
+        <a
+          href={socialMediaLinks.music}
+          className="icon-button music"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-headphones"></i>
+          <span></span>
+        </a>
+      ) : null} */}
     </div>
   );
 }
