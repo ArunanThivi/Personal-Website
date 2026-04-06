@@ -139,18 +139,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-      {/* 
-      {socialMediaLinks.music ? (
-        <a
-          href={socialMediaLinks.music}
-          className="icon-button music"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-headphones"></i>
-          <span></span>
-        </a>
-      ) : null} */}
     </div>
   );
 }

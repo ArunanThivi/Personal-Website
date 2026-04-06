@@ -217,7 +217,7 @@ const bigProjects = {
   subtitle: "Some of my Favorite Projects",
   projects: [
     {
-      image: require("./assets/images/uscd_mcbba.jpg"),
+      image: require("./assets/images/uscd_mcbba.png"),
       projectName: "Club Basketball",
       projectDesc:
         "Film, Box scores and interactive game charts for UCSD's Club Basketball team",
